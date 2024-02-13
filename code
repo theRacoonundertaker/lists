@@ -1,0 +1,17 @@
+# Create the 'shopping' list and initialize it with some foods
+shopping = ["bread", "eggs", "cheese", "rice"]
+
+# Add "milk" to the end of the list
+shopping.append("milk")
+
+# Remove "bread" from the shopping list
+shopping.remove("bread")
+
+# Insert "oranges" after the 2nd item
+shopping.insert(2, "oranges")
+
+# Print the length of the shopping list
+print(len(shopping))
+
+# Check if "apples" is in the shopping list, and print True or False based on the result
+print("apples" in shopping)
